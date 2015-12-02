@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
+#include "MP7Test_File_Producer.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Producing Test File\n";
+    MP7Test_File_Producer();
     return 0;
 }

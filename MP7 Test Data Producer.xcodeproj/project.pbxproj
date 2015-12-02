@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13C37E961C0FA0FF0044E985 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13C37E951C0FA0FF0044E985 /* main.cpp */; };
+		13C37E9E1C0FA2C10044E985 /* MP7Test_File_Producer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13C37E9C1C0FA2C10044E985 /* MP7Test_File_Producer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		13C37E921C0FA0FF0044E985 /* MP7 Test Data Producer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MP7 Test Data Producer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C37E951C0FA0FF0044E985 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13C37E9C1C0FA2C10044E985 /* MP7Test_File_Producer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MP7Test_File_Producer.cpp; sourceTree = "<group>"; };
+		13C37E9D1C0FA2C10044E985 /* MP7Test_File_Producer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP7Test_File_Producer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				13C37E951C0FA0FF0044E985 /* main.cpp */,
+				13C37E9C1C0FA2C10044E985 /* MP7Test_File_Producer.cpp */,
+				13C37E9D1C0FA2C10044E985 /* MP7Test_File_Producer.h */,
 			);
 			path = "MP7 Test Data Producer";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C37E9E1C0FA2C10044E985 /* MP7Test_File_Producer.cpp in Sources */,
 				13C37E961C0FA0FF0044E985 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
