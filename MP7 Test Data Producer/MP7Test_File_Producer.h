@@ -10,6 +10,10 @@
 #define ____MP7Test_File_Producer__
 
 #include <stdio.h>
+#include <iostream>
+#include <iomanip>
+
+#include "MP7Test_File_Producer.h"
 
 #endif /* defined(____MP7Test_File_Producer__) */
 

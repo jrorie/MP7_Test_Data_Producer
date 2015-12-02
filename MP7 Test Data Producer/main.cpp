@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "MP7Test_File_Producer.h"
+#include <iomanip>
 
 int main(int argc, const char * argv[]) {
     std::cout << "Producing Test File\n";
